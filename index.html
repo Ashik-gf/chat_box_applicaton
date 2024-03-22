@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBox</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class=" w-full max-h-fit border-[1px] ">
+        <div class=" flex justify-center ">
+            <!-- Icon -->
+            <div class="w-[88px] mx-auto min-h-screen">
+                <div class=" flex justify-center items-center mt-4 mx-auto p-2 w-[56px] h-[56px] rounded-[14px] bg-[#615EF0]  ">
+                    <img class=" w-[22px] h-[32px] mx-auto " src="./images/iconQ.png" />
+                </div>
+                <div class="icon flex justify-center mt-20">
+                    <img class="h-[248px] w-[24px]" src="./images/IconBox.png" />
+                </div>
+                <div class=" w-full mt-32">
+                    <img class="h-[30px] mx-auto mt-[30px]" src="./images/gear.jpg" />
+                </div>
+            </div>
+
+            <!-- Masagess -->
+            <div class=" w-[349px] min-h-screen  h-4  overflow-y-auto overflow-x-hidden no-scrollbar box ">
+                <div class="flex justify-between px-8 py-8 ">
+                    <div class=" flex justify-start items-center gap-3">
+                        <h1 class=" text-semiBold text-[20px]">Massages</h1>
+                        <img class=" h-2" src="./images/downArrow.png" />
+                        <p class=" bg-[#edf2f7] text-[12px] px-1 text-semiBold rounded-full">12</p>
+                    </div>
+                    <div class="  flex justify-center items-center">
+                        <img class=" h-[25px] " src="./images/plus.png" />
+                    </div>
+                </div>
+                <hr />
+                <!-- SearchBox -->
+                <div class="search_box py-8 px-4">
+                    <div>
+                        <input type="text" placeholder="Search   Search Massages"
+                            class=" bg-[#f3f3f3] w-[270px] h-[48px] p-[10px] rounded-lg" />
+                    </div>
+                </div>
+                <!-- Name Card -->
+                <div class="px-1 py-2  ">
+                    <!-- Card1 -->
+                    <div class=" flex justify-start my-2 p-2 ">
+                        <div class="w-[60px]">
+                            <img src="./images/Frame1.png" class=" w-12 h-12" />
+                        </div>
+                        <div class=" ml-4 w-full  ">
+                            <div class=" w-full flex justify-between">
+                                <h1 class=" text-semiBold text-[14px]">Elmer Lavetry
+                                </h1>
+                                <p class=" text-[14px] text-semiBold text-gray-400">12m</p>
+                            </div>
+                            <img class=" h-3" src="./images/haha.png" />
+                            <div class=" my-1">
+                                <button class=" bg-[#ffebc8] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#dd6b21]">Question</p>
+                                </button>
+                                <button class=" bg-[#c6f6d5] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#6dc1c4]">Help wanted</p>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- button -->
+
+                    </div>
+                    <!-- card2 -->
+                    <div class=" flex justify-start bg-[#615EF00F] p-2 rounded-lg">
+                        <div class="w-[60px] ">
+                            <img src="./images/Frame2.png" class=" w-12 h-12" />
+                        </div>
+                        <div class=" ml-4 w-full  ">
+                            <div class=" w-full flex justify-between">
+                                <h1 class=" text-semiBold text-[14px]">Florencio Dorrance
+                                </h1>
+                                <p class=" text-[14px] text-semiBold text-gray-400">24m</p>
+                            </div>
+                            <!-- <img class=" h-3" src="./images/haha.png" /> -->
+                            <p class=" text-[12px]">woohoooo</p>
+                            <div class=" my-1">
+                                <button class=" bg-[#f6f6ff] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#728096]">Some content</p>
+                                </button>
+                                <!-- <button class=" bg-[#c6f6d5] px-2 py-0.5 rounded-lg"><p class=" text-[10px] text-[#6dc1c4]">Help wanted</p></button> -->
+                            </div>
+                        </div>
+                        <!-- button -->
+
+                    </div>
+                    <!-- Card3 -->
+                    <div class=" flex justify-start my-2 p-2 ">
+                        <div class="w-[60px]">
+                            <img src="./images/Frame3.png" class=" w-12 h-12" />
+                        </div>
+                        <div class=" ml-4 w-full  ">
+                            <div class=" w-full flex justify-between">
+                                <h1 class=" text-semiBold text-[14px]">Lavern Laboy
+                                </h1>
+                                <p class=" text-[14px] text-semiBold text-gray-400">1hr</p>
+                            </div>
+                            <!-- <img class=" h-3" src="./images/haha.png" /> -->
+                            <p class=" text-[12px]">Haha that's terrifying 😂</p>
+                            <div class=" my-1">
+                                <button class=" bg-[#ffebc8] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#dd6b21]">Bug</p>
+                                </button>
+                                <button class=" bg-[#c6f6d5] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#6dc1c4]">Help wanted</p>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- button -->
+
+                    </div>
+                    <!-- Card4 -->
+                    <div class=" flex justify-start my-2 p-2 ">
+                        <div class="w-[60px]">
+                            <img src="./images/Frame4.png" class=" w-12 h-12" />
+                        </div>
+                        <div class=" ml-4 w-full  ">
+                            <div class=" w-full flex justify-between">
+                                <h1 class=" text-semiBold text-[14px]">Titus Kitamura
+                                </h1>
+                                <p class=" text-[14px] text-semiBold text-gray-400">5hr</p>
+                            </div>
+                            <!-- <img class=" h-3" src="./images/haha.png" /> -->
+                            <p class=" text-[12px]">omg, this is amazing</p>
+                            <div class=" my-1">
+                                <button class=" bg-[#ffebc8] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#dd6b21]">Question</p>
+                                </button>
+                                <button class=" bg-[#f6f6ff] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#728096]">Some content</p>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- button -->
+
+                    </div>
+                    <!-- Card5 -->
+                    <div class=" flex justify-start my-2 p-2 ">
+                        <div class="w-[60px]">
+                            <img src="./images/Frame5.png" class=" w-12 h-12" />
+                        </div>
+                        <div class=" ml-4 w-full  ">
+                            <div class=" w-full flex justify-between">
+                                <h1 class=" text-semiBold text-[14px]">Geoffrey Mott
+                                </h1>
+                                <p class=" text-[14px] text-semiBold text-gray-400">2d</p>
+                            </div>
+                            <!-- <img class=" h-3" src="./images/haha.png" /> -->
+                            <p class=" text-[12px]">aww 😍</p>
+                            <div class=" my-1">
+                                <!-- <button class=" bg-[#ffebc8] px-2 py-0.5 rounded-lg"><p class=" text-[10px] text-[#dd6b21]">Question</p></button> -->
+                                <button class=" bg-[#c6f6d5] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#6dc1c4]">Request</p>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- button -->
+
+                    </div>
+                    <!-- Card6 -->
+                    <div class=" flex justify-start my-2 p-2 ">
+                        <div class="w-[60px]">
+                            <img src="./images/Frame5.png" class=" w-12 h-12" />
+                        </div>
+                        <div class=" ml-4 w-full  ">
+                            <div class=" w-full flex justify-between">
+                                <h1 class=" text-semiBold text-[14px]">Alfonzo Schuessler
+                                </h1>
+                                <p class=" text-[14px] text-semiBold text-gray-400">1m</p>
+                            </div>
+                            <!-- <img class=" h-3" src="./images/haha.png" /> -->
+                            <p class=" text-[12px]">perfect!</p>
+                            <div class=" my-1">
+                                <!-- <button class=" bg-[#ffebc8] px-2 py-0.5 rounded-lg"><p class=" text-[10px] text-[#dd6b21]">Question</p></button> -->
+                                <button class=" bg-[#f6f6ff] px-2 py-0.5 rounded-lg">
+                                    <p class=" text-[10px] text-[#728096]">Follow up</p>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- button -->
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Box -->
+            <div class="w-[640px] max-h-screen px-3 border-[1px]">
+                <!-- Header Section -->
+                <div class=" flex justify-between py-6">
+                    <div class=" flex justify-start items-center gap-2">
+                        <img class=" h-[40px] w-[40px] rounded-[10px]" src="./images/Frame2.png" />
+                        <div>
+                            <h1 class=" text-lg text-semiBold">Florencio Dorrance</h1>
+                            <div class=" flex justify-start items-center gap-2">
+                                <div class=" h-2 w-2 bg-green-500 rounded-full"></div>
+                                <p class=" text-[10px]">Online</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" flex justify-end items-center">
+                        <button class=" flex items-center gap-2 px-2 py-1 rounded-md bg-[#efeffd]">
+                            <i class="fa-solid fa-phone text-[#615EF0]"></i>
+                            <P class=" text-[#615EF0]">Call</P>
+                        </button>
+                    </div>
+                </div>
+                <hr />
+                <!-- Chat box main -->
+                <div class=" base-font h-[470px] overflow-y-auto overflow-x-hidden no-scrollbar pt-4">
+                    <section class=" w-full ">
+                        <!-- Sms1 -->
+                        <div class="  flex  gap-4">
+                            <img class=" h-[40px] w-[40px] rounded-[10px]" src="./images/Frame2.png" />
+                            <div class="">
+                                <h1 class=" bg-[#F1F1F1] rounded-[12px] px-2 py-2 ">omg, this is amazing</h1>
+                                <p class=" w-[100px] bg-[#F1F1F1] rounded-[12px] px-2 py-2 my-[10px]">perfect! ✅</p>
+                                <h1 class=" w-full bg-[#F1F1F1] rounded-[12px] px-2 py-2 ">Wow, this is really epic</h1>
+                            </div>
+                        </div>
+                        <!-- Sms2 -->
+                        <div class="  flex flex-row-reverse  gap-4">
+                            <img class=" h-[40px] w-[40px] rounded-[10px]" src="./images/Frame2.png" />
+                            <div class="">
+                                <h1 class=" bg-[#615ef0] text-white rounded-[12px] px-2 py-2 ">How are you?</h1>
+
+                            </div>
+                        </div>
+                        <!-- sms3 -->
+                        <div class="  flex   gap-4">
+                            <img class=" h-[40px] w-[40px] rounded-[10px]" src="./images/Frame2.png" />
+                            <div class="">
+                                <h1 class=" bg-[#F1F1F1] rounded-[12px] px-2 py-2 ">just ideas for next time</h1>
+                                <p class="  bg-[#F1F1F1] rounded-[12px] px-2 py-2 my-[10px]">I'll be there in 2 mins ⏰
+                                </p>
+
+                            </div>
+                        </div>
+                        <!-- sms4 -->
+                        <div class="  flex flex-row-reverse   gap-4">
+                            <img class=" h-[40px] w-[40px] rounded-[10px]" src="./images/Frame2.png" />
+                            <div class=" ">
+                                <p class=" w-[100px] bg-[#615ef0] text-white rounded-[12px] px-2 py-2 ">woohoooo</p>
+                                <p class=" w-[120px] bg-[#615ef0] text-white rounded-[12px] px-2 py-2 my-2">Haha oh man
+                                </p>
+                                <!-- <h1 class=" bg-[#615ef0] text-white rounded-[12px] px-2 py-2">Haha that's terrifying 😂</h1> -->
+
+                            </div>
+
+
+                        </div>
+                        <!-- sms5 -->
+                        <div class="  flex  gap-4">
+                            <img class=" h-[40px] w-[40px] rounded-[10px]" src="./images/Frame2.png" />
+                            <div class="">
+                                <h1 class=" w-[70px] text-center bg-[#F1F1F1] rounded-[12px] px-2 py-2 ">aww</h1>
+                                <p class="  bg-[#F1F1F1] rounded-[12px] px-2 py-2 my-[10px]">omg, this is amazing</p>
+                                <h1 class=" w-[120px] text-center bg-[#F1F1F1] rounded-[12px] px-2 py-2 ">woohoooo 🔥
+                                </h1>
+                            </div>
+                        </div>
+                    </section>
+                    <div class=" flex items-center py-6">
+                        <img class="h-[19px] w-[14px] mr-3 " src="./images/fileIncon.png" />
+                        <div class=" flex justify-end relative p-2">
+                            <input class=" w-[480px] h-[48px] px-6 rounded-[12px] border-[2px] border-gray-200"
+                                type="text" placeholder="Type Massages" />
+                            <div>
+                                <img class="h-4 absolute top-6 right-8 " src="./images/send.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Directory -->
+            <div class="w-[362px] min-h-screen   h-full ">
+                <div class=" flex justify-between pt-6 pb-[22px] px-3">
+                    <h1 class=" text-[20px] text-semiBold">Directory</h1>
+                    <div class=" h-[45px] w-[45px] flex justify-center items-center bg-[#EFEFFD] rounded-full ">
+                        <img class="h-4 " src="./images/three.png" />
+                    </div>
+                </div>
+                <hr />
+                <!-- Team Members -->
+                <div class=" max-h-screen  ">
+                    <div class=" h-[300px] overflow-y-auto overflow-x-hidden no-scrollbar ">
+                        <section class=" flex justify-start items-center gap-4  mx-2 pt-6 pb-2">
+                            <h1 class=" text-semiBold text-[14px]">Team Members</h1>
+                            <p class=" bg-[#edf2f7] text-[10px] px-2 py-1 text-semiBold rounded-full">6</p>
+                        </section>
+                        <div class=" px-2">
+                            <div class=" w-[330px] h-[72px] px-2 flex justify-start items-center">
+                                <img class=" h-12 w-12 rounded-xl" src="./images/Frame6.jpg" />
+                                <div class=" mx-2">
+                                    <h1 class=" text-semiBold text-[14px]">Florencio Dorrance</h1>
+                                    <p class=" text-[12px] text-semiBold text-black/40">Market Development Manager</p>
+                                </div>
+                            </div>
+                            <!-- card2 -->
+                            <div class=" w-[330px] h-[72px] px-2 flex justify-start items-center">
+                                <img class=" h-12 w-12 rounded-xl" src="./images/Frame7.jpg" />
+                                <div class=" mx-2">
+                                    <h1 class=" text-semiBold text-[14px]">Benny Spanbauer</h1>
+                                    <p class=" text-[12px] text-semiBold text-black/40">Area Sales Manager</p>
+                                </div>
+                            </div>
+                            <!-- card3 -->
+                            <div class=" w-[330px] h-[72px] px-2 flex justify-start items-center">
+                                <img class=" h-12 w-12 rounded-xl" src="./images/Frame8.jpg" />
+                                <div class=" mx-2">
+                                    <h1 class=" text-semiBold text-[14px]">Jamel Eusebio</h1>
+                                    <p class=" text-[12px] text-semiBold text-black/40">Administrator</p>
+                                </div>
+                            </div>
+                            <!-- card4 -->
+                            <div class=" w-[330px] h-[72px] px-2 flex justify-start items-center">
+                                <img class=" h-12 w-12 rounded-xl" src="./images/Frame9.jpg" />
+                                <div class=" mx-2">
+                                    <h1 class=" text-semiBold text-[14px]">Lavern Laboy</h1>
+                                    <p class=" text-[12px] text-semiBold text-black/40">Account Executive</p>
+                                </div>
+                            </div>
+                            <!-- card5 -->
+                            <div class=" w-[330px] h-[72px] px-2 flex justify-start items-center">
+                                <img class=" h-12 w-12 rounded-xl" src="./images/Frame10.jpg" />
+                                <div class=" mx-2">
+                                    <h1 class=" text-semiBold text-[14px]">Alfonzo Schuessler</h1>
+                                    <p class=" text-[12px] text-semiBold text-black/40">Proposal Writer</p>
+                                </div>
+                            </div>
+                            <!-- card6 -->
+                            <div class=" w-[330px] h-[72px] px-2 flex justify-start items-center">
+                                <img class=" h-12 w-12 rounded-xl" src="./images/Frame11.jpg" />
+                                <div class=" mx-2">
+                                    <h1 class=" text-semiBold text-[14px]">Daryl Nehls</h1>
+                                    <p class=" text-[12px] text-semiBold text-black/40">Nursing Assistant</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- file -->
+                    <div class="h-[190px] overflow-x-hidden overflow-y-auto no-scrollbar pt-4">
+                        <div class="flex items-center px-4  gap-2">
+                            <h3 class="font-bold">Files</h3>
+                            <p class="bg-[#EDF2F7] text-black w-10 text-center rounded-xl">125</p>
+                        </div>
+                        <div >
+                            <div class="flex justify-between p-2">
+                                <div class="flex gap-2">
+                                    <div class="h-12 w-12 bg-[#F56565]/20 rounded-xl">
+                                        <img class="w-12 h-12 p-2" src="./images/clipboardtext.png" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold">i9.pdf</h3>
+                                        <p class="text-sm text-gray-500">9mb PDF</p>
+                                    </div>
+                                </div>
+                                <img class=" h-6 w-6 " src="./images/downlode.png" alt="" />
+                            </div>
+                            <div class="flex justify-between p-2">
+                                <div class="flex gap-2">
+                                    <div class="h-12 w-12 bg-[#48BB78]/20 rounded-xl">
+                                        <img class="w-12 h-12 p-2 rounded-lg" src="./images/gallery.jpg" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold">Screenshot-3817.png</h3>
+                                        <p class="text-sm text-gray-500">PNG 4mb</p>
+                                    </div>
+                                </div>
+                                <img class=" h-6 w-6 " src="./images/downlode.png" alt="" />
+                            </div>
+                            <div class="flex justify-between p-2">
+                                <div class="flex gap-2">
+                                    <div class="h-12 w-12 bg-[#4299E1]/20 rounded-xl">
+                                        <img class="w-12 h-12 p-2 rounded-lg" src="./images/documenttext.png" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold">sharefile.docx</h3>
+                                        <p class="text-sm text-gray-500">DOC 55kb</p>
+                                    </div>
+                                </div>
+                                <img class=" h-6 w-6 " src="./images/downlode.png" alt="" />
+                            </div>
+                            <div class="flex justify-between p-2">
+                                <div class="flex gap-2">
+                                    <div class="h-12 w-12 bg-[#9F7AEA]/30 rounded-xl">
+                                        <img class="w-12 h-12 p-2 rounded-lg" src="./images/documentcode.png" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold">Jerry-2020_I-9_Form.xxl</h3>
+                                        <p class="text-sm text-gray-500">XXL 24mb</p>
+                                    </div>
+                                </div>
+                                <img class=" h-6 w-6 " src="./images/downlode.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

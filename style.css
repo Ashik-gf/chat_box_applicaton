@@ -1,0 +1,30 @@
+
+
+.text-semiBold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.base-font {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+.no-scrollbar{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+.box {
+    box-shadow: -5px 0px 3px 0px #f2f0f0;
+}
